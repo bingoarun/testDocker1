@@ -13,7 +13,7 @@ def execServer():
 		client_socket, address = server_socket.accept()
 		print "I got a connection from ", address
 		while 1:
-			data = "This is from app 1"
+			data = "This is from application 1"
 			try:
 				client_socket.send(data)
 				time.sleep(5)
